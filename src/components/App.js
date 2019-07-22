@@ -10,7 +10,7 @@ function App() {
 
   const addNote = (noteTitle) => {
     noteId++
-    const note = {id: noteId, title: noteTitle, pinned: noteId%2 === 0}
+    const note = {id: noteId, title: noteTitle, pinned: false}
     setNotes([...notes, note])
   }
 

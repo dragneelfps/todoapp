@@ -1,0 +1,16 @@
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-title {
+    font-size: 24px;
+}
+
+.note-delete {
+
+}
+
+.note-pin {
+
+}
